@@ -41,9 +41,9 @@
                 /*echo "You are logged in with $us and password $pa";*/
                 include_once("connection.php");
                 $pass = md5($pa);
-                $res1 = pg_query($conn,"SELECT Username, Password,state FROM Customer WHERE Username='$us' AND Password='$pass'") or 
+                $res1 = pg_query($conn,"SELECT username, password,state FROM customer WHERE username='$us' AND password='$pass'") or 
                 die(pg_error($conn));
-                $row1=pg_fetch_array($res1,PGSQL_ASSOC);
+                $row1=pg_fetch_array($res1,Null,PGSQL_ASSOC);
                 if(pg_num_rows($res1)==1)
                 {
                     $_SESSION['us']=$us;

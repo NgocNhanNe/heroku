@@ -9,13 +9,13 @@
           if (!$result) { //add this check.
             die('Invalid query: ' . pg_error($conn));
                         }
-          while($row = pg_fetch_array($result, PGSQL_ASSOC)){
+          while($row = pg_fetch_array($result,Null, PGSQL_ASSOC)){
       ?>
         <div class="col-sm-4">
           <div class="thumbnail">
             <img id="furniture" src="images/<?php echo $row['pro_image']?>">
             <p><strong><?php echo $row['product_name']?></strong></p>
-            <p>$<?php echo $row['Price']?></p>
+            <p>$<?php echo $row['price']?></p>
             <a href="?page=cart"><button class="btn">Buy now</button></a>
           </div>
         </div>

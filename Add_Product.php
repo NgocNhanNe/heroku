@@ -51,7 +51,7 @@ if(isset($_POST["btnAdd"]))
 		if($pic['type']=="image/jpg"||$pic['type']=="image/jpeg"||$pic['type']=="image/png"||
 		$pic['type']=="image/gif"){
 			if($pic['size']<=614400){
-				$sq="select * from product where Product_ID='$id' or Product_Name='$proname'";
+				$sq="select * from product where product_id='$id' or product_name='$proname'";
 				$result=pg_query($conn,$sq);
 				if(pg_num_rows($result)==0)
 				{
