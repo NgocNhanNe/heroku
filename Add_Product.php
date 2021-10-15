@@ -57,8 +57,8 @@ if(isset($_POST["btnAdd"]))
 				{
 					copy($pic['tmp_name'],"product-imgs/".$pic['name']);
 					$filePic=$pic['name'];
-					$sqlstring="INSERT INTO product(Product_ID,Product_Name,Price,SmallDesc,
-					DetailDesc,ProDate,Pro_qty,Pro_image, Cat_ID)
+					$sqlstring="INSERT INTO product(product_id,product_name,price,SmallDesc,
+					DetailDesc,ProDate,pro_qty,pro_image, cat_id)
 					VALUES ('$id','$proname','$price','$short','$detail','".date('Y-m-d H:i:s')."',
 					'$qty','$filePic','$category')";
 					pg_query($conn,$sqlstring);

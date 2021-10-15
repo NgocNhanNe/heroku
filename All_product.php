@@ -13,8 +13,8 @@
       ?>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img id="furniture" src="images/<?php echo $row['Pro_image']?>">
-            <p><strong><?php echo $row['Product_Name']?></strong></p>
+            <img id="furniture" src="images/<?php echo $row['pro_image']?>">
+            <p><strong><?php echo $row['product_name']?></strong></p>
             <p>$<?php echo $row['Price']?></p>
             <a href="?page=cart"><button class="btn">Buy now</button></a>
           </div>

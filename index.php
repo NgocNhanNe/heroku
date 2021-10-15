@@ -56,11 +56,6 @@ session_start();
       <a class="navbar-brand" href="?page=home"><span style="bold;20px;color:darkgreen">DECOR<span class="glyphicon glyphicon-leaf"></span>HOUSE.com</span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-    <br>
-      <br>
-      <br>
-      <br>
-      <br>
       <ul class="nav navbar-nav">
         <li><a href="?page=home">Home</a></li>
         <li><a href="?page=furniture">Furniture</a></li>
