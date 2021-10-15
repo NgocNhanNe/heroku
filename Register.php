@@ -45,7 +45,7 @@ if(isset($_POST['btnRegister'])){
         $res=pg_query($conn,$sq);
         if(pg_num_rows($res)==0)
         {
-            pg_query($conn,"INSERT INTO customer(username,password,custName,gender,address,telephone,email,cusdate,
+            pg_query($conn,"INSERT INTO customer(username,password,custname,gender,address,telephone,email,cusdate,
             cusmonth,cusyear,ssn,activecode,state)
             VALUES ('$us','$pass','$fullname','$sex','$address','$tel','$email','$date',
             '$month','$year','','',0)") or die(pg_error($conn));

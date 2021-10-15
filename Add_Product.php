@@ -5,12 +5,12 @@
 <?php
 	include_once("connection.php");
 	function bind_Category_List($conn){
-		$sqlstring="select Cat_ID, Cat_Name from category";
+		$sqlstring="select cat_id, cat_name from category";
 		$result=pg_query($conn, $sqlstring);
 		echo"<select name='CategoryList' class='form-control'>
 		<option value='0'>Choose category</option>";
-		while($row=pg_fetch_array($result, PGSQL_ASSOC)){
-			echo"<option value='".$row['Cat_ID']."'>".$row['Cat_Name'].
+		while($row=pg_fetch_array($result,Null, PGSQL_ASSOC)){
+			echo"<option value='".$row['cat_id']."'>".$row['cat_name'].
 			"</option>";
 		}
 		echo"</select>";
@@ -57,8 +57,8 @@ if(isset($_POST["btnAdd"]))
 				{
 					copy($pic['tmp_name'],"product-imgs/".$pic['name']);
 					$filePic=$pic['name'];
-					$sqlstring="INSERT INTO product(product_id,product_name,price,SmallDesc,
-					DetailDesc,ProDate,pro_qty,pro_image, cat_id)
+					$sqlstring="INSERT INTO product(product_id,product_name,price,smalldesc,
+					detaildesc,prodate,pro_qty,pro_image, cat_id)
 					VALUES ('$id','$proname','$price','$short','$detail','".date('Y-m-d H:i:s')."',
 					'$qty','$filePic','$category')";
 					pg_query($conn,$sqlstring);
