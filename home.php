@@ -16,24 +16,15 @@
 include_once("connection.php");
 ?>
 <body>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
-
-    <div class="well well-sm" id="best_seller">INTRODUCTION TO OUR SHOWROOM</div>
+<div class="well well-sm" id="best_seller">INTRODUCTION TO OUR SHOWROOM</div>
       <div class="jumbotron">
           <div id="video" class="container text-center">
-              <video width="1200px" height="300px" controls>
-          <source src="images/video.mp4" type="video/mp4">
-        </video>
+              <video width="1200px" height="300px" controls><source src="images/video.mp4" type="video/mp4"></video>
           </div>
       </div>
-  </div>
-</div>
 <br>
+
+
 <div class="product" id="product01">
     <img src="images/ban_ghe.jpg"/>
       <div><span>Tables and Chairs in the yard</span></div>
@@ -50,31 +41,37 @@ include_once("connection.php");
           <img src="images/ledlights.jpg"/>
           <div><span>Led lights</span></div>
       </div>
+
+
       <br><br><br><br><br><br><br><br><br>
-       <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
         <img src="images/background1.jpg" alt="Image">
         <div class="carousel-caption"></div>      
-      </div>
+    </div>
 
-      <div class="item">
+    <div class="item">
         <img src="images/background2.jpg" alt="Image">
-        <div class="carousel-caption">
-        </div>      
-      </div>
+        <div class="carousel-caption"></div>      
+    </div>
 
-      <div class="item">
+    <div class="item">
         <img src="images/background3.jpg" alt="Image">
-        <div class="carousel-caption">
-        </div>      
-      </div>
+        <div class="carousel-caption"></div>      
+    </div>
 
-      <div class="item">
+    <div class="item">
         <img src="images/background4.jpg" alt="Image">
-        <div class="carousel-caption">
-        </div>      
-      </div>
+        <div class="carousel-caption"></div>      
+    </div>
       <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -84,9 +81,6 @@ include_once("connection.php");
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only"></span>
       </a>
-    </div>
-
-    </div>
   </div>
 </div>
      
