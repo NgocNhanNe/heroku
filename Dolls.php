@@ -1,4 +1,4 @@
-<div class="well well-sm" id="best_seller">KITCHEN & DINING</div>
+<div class="well well-sm" id="best_seller">DOLLS</div>
 <div class="bg-1">
   <div class="container">
     <div class="row text-center">

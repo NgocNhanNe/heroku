@@ -1,4 +1,4 @@
-<div class="well well-sm" id="best_seller">RUGS</div>
+<div class="well well-sm" id="best_seller">MAFEX</div>
 <div class="bg-1">
   <div class="container">
     <div class="row text-center">
