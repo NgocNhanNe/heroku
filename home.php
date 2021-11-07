@@ -128,7 +128,7 @@ include_once("connection.php");
       </div>      
     </div>
     <div class="item">
-      <img id="exists" src="images/exists4.jpg" alt="pic">
+      <img id="exists" src="images/exists_pic4.jpg" alt="pic">
       <div class="carousel-caption">
       </div>      
     </div>
