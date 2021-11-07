@@ -23,7 +23,35 @@ include_once("connection.php");
       <li data-target="#myCarousel" data-slide-to="1"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
+    <div class="well well-sm" id="best_seller">INTRODUCTION TO OUR SHOWROOM</div>
+      <div class="jumbotron">
+          <div id="video" class="container text-center">
+              <video width="1200px" height="300px" controls>
+          <source src="images/video.mp4" type="video/mp4">
+        </video>
+          </div>
+      </div>
+  </div>
+</div>
+<br>
+<div class="product" id="product01">
+    <img src="images/ban_ghe.jpg"/>
+      <div><span>Tables and Chairs in the yard</span></div>
+</div>
+<div class="product" id="product02">
+    <img src="images/pots.jpg"/>
+    <div><span>Pots for bonsai</span></div>
+</div>
+  <div class="product" id="product03">
+    <img src="images/Sculpture.jpg"/>
+      <div><span>Sculpture</span></div>
+    </div>
+    <div class="product" id="product04">
+          <img src="images/ledlights.jpg"/>
+          <div><span>Led lights</span></div>
+      </div>
+      <br><br><br><br><br><br><br><br><br>
+       <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="images/background1.jpg" alt="Image">
@@ -57,34 +85,7 @@ include_once("connection.php");
         <span class="sr-only"></span>
       </a>
     </div>
-  </div>
-</div>
-<br>
-<div class="product" id="product01">
-    <img src="images/ban_ghe.jpg"/>
-      <div><span>Tables and Chairs in the yard</span></div>
-</div>
-<div class="product" id="product02">
-    <img src="images/pots.jpg"/>
-    <div><span>Pots for bonsai</span></div>
-</div>
-  <div class="product" id="product03">
-    <img src="images/Sculpture.jpg"/>
-      <div><span>Sculpture</span></div>
-    </div>
-    <div class="product" id="product04">
-          <img src="images/ledlights.jpg"/>
-          <div><span>Led lights</span></div>
-      </div>
-      <br><br><br><br><br><br><br><br><br>
-      <div class="well well-sm" id="best_seller">INTRODUCTION TO OUR SHOWROOM</div>
-      <div class="jumbotron">
-          <div id="video" class="container text-center">
-              <video width="1200px" height="300px" controls>
-          <source src="images/video.mp4" type="video/mp4">
-        </video>
-          </div>
-      </div>
+
     </div>
   </div>
 </div>
