@@ -97,9 +97,6 @@
 .product:hover span{
     color: rgb(20, 114, 12);
 }
-#video{
-    display: block;
-}
 .jumbotron {
     margin-bottom: 0;
 }
@@ -147,6 +144,7 @@
     transition: width 2s, height 2s;
 }
 #footer{
+    color: #fff;
    align-content: center;
     background-color: rgb(0, 0, 0);
 }
