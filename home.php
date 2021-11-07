@@ -16,7 +16,7 @@
 include_once("connection.php");
 ?>
 <body>
-<div class="well well-sm" id="best_seller">INTRODUCTION TO OUR SHOWROOM</div>
+<div class="well well-sm" id="best_seller">TOP 4 most expensive Bearbrick in the world</div>
 <div class="product" id="product01">
     <img src="images/Nike-x-unhcr-2006.jpg"/>
       <div><span>Nike x UNHCR 2006 World cup</span></div>
@@ -43,49 +43,49 @@ include_once("connection.php");
       <div class="row text-center">
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/funiture.jpg" alt="Furniture">
-            <p><strong>FURNITURE</strong></p>
-            <p>$205</p>
+            <img src="images/bearbrick.jpg" alt="BEARBRICK">
+            <p><strong>BEARBRICK DAVE CHROME Ver. 100% & 400%</strong></p>
+            <p>$5,000</p>
             <a href="?page=cart"><button class="btn">Buy now</button></a>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/pillows.jpg" alt="Pillows">
-            <p><strong>DÉCOR PILLOWS</strong></p>
-            <p>$85</p>
+            <img src="images/batman-mafex.jpg" alt="MAFEX">
+            <p><strong>MAFEX BATMAN Ver.3.0</strong></p>
+            <p>$850</p>
             <a href="?page=cart"><button class="btn">Buy now</button></a>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/rugs.jpg" alt="Rugs">
-            <p><strong>RUGS</strong></p>
-            <p>$108</p>
+            <img src="images/dolls-vcd.jpg" alt="DOLLS">
+            <p><strong>VCD Marilyn Monroe GOLD Ver.</strong></p>
+            <p>$600</p>
             <a href="?page=cart"><button class="btn">Buy now</button></a>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/curtains.jpg" alt="Curtains">
-            <p><strong>CURTAINS</strong></p>
-            <p>$380</p>
+            <img src="images/sofvi-smak.jpg" alt="SOFVI">
+            <p><strong>SMAK! Martin by Nathalie Lete</strong></p>
+            <p>$1,380</p>
             <a href="?page=cart"><button class="btn">Buy now</button></a>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/glass.jpg" alt="Glass">
-            <p><strong>GLASS</strong></p>
-            <p>$15</p>
+            <img src="images/1000-bearbrick-god-selection-xxx-white.jpg" alt="BEARBRICK">
+            <p><strong>1000% Bearbrick God Selection XXX White</strong></p>
+            <p>$4,500</p>
             <a href="?page=cart"><button class="btn">Buy now</button></a>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/fruit_plate.jpg" alt="fruit_plate" width="100" height="100">
-            <p><strong>FRUIT PLATE</strong></p>
-            <p>$42</p>
+            <img src="images/0075_200824_72bxik_y_360x.jpg" alt="DOLLS" width="100" height="100">
+            <p><strong>VCD ANDY WARHOL SILKSCREEN VARIANT 2020 Ver.</strong></p>
+            <p>$420</p>
             <a href="?page=cart"><button class="btn">Buy now</button></a>
           </div>
         </div>

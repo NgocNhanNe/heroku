@@ -72,7 +72,7 @@ session_start();
   </div>
   <div id="welcome">
     <marquee direction="left" behavior="scroll" scrollamount="8">
-        Welcome to ATN STORE. Shop safely your way<span class="glyphicon glyphicon-asterisk"></span>
+        Welcome to ATN STORE. Shop safely your way!<span class="glyphicon glyphicon-asterisk"></span>
     </marquee>
 </div>
 </nav>
