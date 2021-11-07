@@ -197,7 +197,6 @@ else{
         <p></p>
         <p><span class="glyphicon glyphicon-phone-alt" style="font-size: 20px">:&nbsp;<b>0290.999.9999<b></span></p>
         <p></p>
-        <img align="right" src="images/decora_footer.gif" width="170px" height="130px">
       </div>
     </div>
   </div>
