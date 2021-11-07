@@ -21,7 +21,7 @@ session_start();
 <div class="discover" align="center"><a href="?page=aboutus">Discover What ATN.store is all about<img class="img" src="images/scroll-right-icon.png"></a></div>
   <div class="col-md-12">
   <div class="row">
-    <div class="location"><a href="https://by.com.vn/8ovUMe"><img class="img" src="images/Location-2-icon.png"><span style="color:black">Location</span></a>
+    <div class="location"><a href="https://bom.to/9ssiSK"><img class="img" src="images/Location-2-icon.png"><span style="color:black">Location</span></a>
       <a href="?page=explore-style"><img class="img" src="images/Very-Basic-Idea-icon.png"><span style="color:black">Ideas and inspiration</span></a>
         <div class="home" align="center">
         <?php
