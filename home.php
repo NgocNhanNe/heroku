@@ -23,20 +23,20 @@ include_once("connection.php");
           </div>
       </div>
 <div class="product" id="product01">
-    <img src="images/ban_ghe.jpg"/>
-      <div><span>Tables and Chairs in the yard</span></div>
+    <img src="images/Nike-x-unhcr-2006.jpg"/>
+      <div><span>Nike x UNHCR 2006 World cup</span></div>
 </div>
 <div class="product" id="product02">
-    <img src="images/pots.jpg"/>
-    <div><span>Pots for bonsai</span></div>
+    <img src="images/CocoChanel.jpg"/>
+    <div><span>Coco Chanel 1000% Bearbrick</span></div>
 </div>
   <div class="product" id="product03">
-    <img src="images/Sculpture.jpg"/>
-      <div><span>Sculpture</span></div>
+    <img src="images/Blacksense.jpg"/>
+      <div><span>The Black Sense Market</span></div>
     </div>
     <div class="product" id="product04">
-          <img src="images/ledlights.jpg"/>
-          <div><span>Led lights</span></div>
+          <img src="images/Colette.jpg"/>
+          <div><span>Colette 10th anniversary</span></div>
       </div>
 
 
