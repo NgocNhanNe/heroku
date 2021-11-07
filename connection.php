@@ -1,7 +1,7 @@
 <?php
 // $conn = mysqli_connect('localhost','root','','decora_shopping')
 // or die("Can not connect database".mysqli_connect_error());
-$conn = pg_connect("postgres://oaqlvsmrdcmjey:e8cbfdd3e649300de52555a46b019f5bd7a3c7fb2039b3f57c4148d78e112707@ec2-107-22-18-26.compute-1.amazonaws.com:5432/d4vd4hj48v9noq");
+$conn = pg_connect("postgres://ipijbtzcoqlnuk:a86c62292c911fd8455bbc40b47269efb24c3ff0d80eb61f1854c8960f724f37@ec2-34-226-18-183.compute-1.amazonaws.com:5432/db5qtgu9v7l9bv");
 
 	if(!$conn)
 	{
