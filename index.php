@@ -18,7 +18,7 @@ session_start();
 ?>
 <body>
 <header>
-<div class="discover" align="center"><a href="?page=aboutus">Discover What Decora House is all about<img class="img" src="images/scroll-right-icon.png"></a></div>
+<div class="discover" align="center"><a href="?page=aboutus">Discover What ATN.store is all about<img class="img" src="images/scroll-right-icon.png"></a></div>
   <div class="col-md-12">
   <div class="row">
     <div class="location"><a href="https://by.com.vn/8ovUMe"><img class="img" src="images/Location-2-icon.png"><span style="color:black">Location</span></a>
@@ -53,17 +53,17 @@ session_start();
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="?page=home"><span style="bold;20px;color:darkgreen">DECOR<span class="glyphicon glyphicon-leaf"></span>HOUSE.com</span></a>
+      <a class="navbar-brand" href="?page=home"><span style="bold;20px;color:darkgreen"><span class="glyphicon glyphicon-gift"></span>ATN STORE</span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="?page=home">Home</a></li>
-        <li><a href="?page=furniture">Furniture</a></li>
-        <li><a href="?page=rugs">Rugs</a></li>
-        <li><a href="?page=curtains">Curtains</a></li>
-        <li><a href="?page=kitchen-dining">Kitchen & Dining</a></li>
-        <li><a href="?page=bed-bath">Bed & Bath</a></li>
-        <li><a href="?page=wall-decor">Wall Decor</a></li>
+        <li><a href="?page=home">HOME</a></li>
+        <li><a href="?page=bearbrick">BEARBRICK</a></li>
+        <li><a href="?page=mafex">MAFEX</a></li>
+        <li><a href="?page=kubrick">KUBRICK</a></li>
+        <li><a href="?page=dolls">VINYL COLLECTIBLE DOLLS</a></li>
+        <li><a href="?page=sofvi">SOFVI</a></li>
+        <li><a href="?page=others">OTHERS</a></li>
         <li><a href="?page=all_product">All Products</a></li>
         <li><a href="?page=management_category">Management Category</a></li>
         <li><a href="?page=management_product">Management Product</a></li>
@@ -72,7 +72,7 @@ session_start();
   </div>
   <div id="welcome">
     <marquee direction="left" behavior="scroll" scrollamount="8">
-        Welcome to DECORA HOUSE. Shop safely your way<span class="glyphicon glyphicon-asterisk"></span>
+        Welcome to ATN STORE. Shop safely your way<span class="glyphicon glyphicon-asterisk"></span>
     </marquee>
 </div>
 </nav>
@@ -85,29 +85,29 @@ if(isset($_GET['page']))
     if($page=="home"){
         include_once("home.php");
     }
-    elseif($page=="furniture")
+    elseif($page=="bearbrick")
     {
-      include_once("Furniture.php");
+      include_once("Bearbrick.php");
     } 
-    elseif($page=="rugs")
+    elseif($page=="mafex")
     {
-      include_once("Rugs.php");
+      include_once("Mafex.php");
     } 
-    elseif($page=="curtains")
+    elseif($page=="kubrick")
     {
-      include_once("Curtains.php");
+      include_once("Kubrick.php");
     }
-    elseif($page=="kitchen-dining")
+    elseif($page=="dolls")
     {
-      include_once("Kitchen-Dining.php");
+      include_once("Dolls.php");
     }
-    elseif($page=="bed-bath")
+    elseif($page=="sofvi")
     {
-      include_once("Bed-Bath.php");
+      include_once("Sofvi.php");
     }
-    elseif($page=="wall-decor")
+    elseif($page=="others")
     {
-      include_once("Wall-Decor.php");
+      include_once("Others.php");
     }
     elseif($page=="aboutus")
     {
@@ -177,15 +177,15 @@ else{
     <div class="row">
       <div class="col-sm-4">
         <h4><b>About us</b></h4>
-        <p><a href="?page=aboutus">Decora House</a></p>
+        <p><a href="?page=aboutus">ATN STORE</a></p>
         <p><a href="?page=guarantee">Guarantee</a></p>
       </div>
       <div class="col-sm-4">
         <h4><b>Quick Links</b></h4>
         <p><a href="?page=home">Home</a></p>
-        <p><a href="?page=kitchen-dining">Kitchen & Dining</a></p>
-        <p><a href="?page=rugs">Rugs</a></p>
-        <p><a href="?page=curtains">Curtains</a></p>
+        <p><a href="?page=bearbrick">Bearbrick</a></p>
+        <p><a href="?page=mafex">Mefex</a></p>
+        <p><a href="?page=kubrick">Kubrick</a></p>
         <p><a href="?page=explore-style">Explore Styles</a></p>
       </div>
       <div class="col-sm-4">
