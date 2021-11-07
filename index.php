@@ -53,7 +53,7 @@ session_start();
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="?page=home"><span style="bold;20px;color:darkgreen"><span class="glyphicon glyphicon-gift"></span><b>ATN STORE</b></span></a>
+      <a class="navbar-brand" href="?page=home"><span style="bold;50px;color:darkgreen"><span class="glyphicon glyphicon-gift"></span><b>ATN STORE</b></span></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
