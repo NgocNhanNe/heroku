@@ -17,11 +17,6 @@ include_once("connection.php");
 ?>
 <body>
 <div class="well well-sm" id="best_seller">INTRODUCTION TO OUR SHOWROOM</div>
-      <div class="jumbotron">
-          <div id="video" class="container text-center">
-              <video width="1200px" height="300px" controls><source src="images/video.mp4" type="video/mp4"></video>
-          </div>
-      </div>
 <div class="product" id="product01">
     <img src="images/Nike-x-unhcr-2006.jpg"/>
       <div><span>Nike x UNHCR 2006 World cup</span></div>
