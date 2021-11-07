@@ -31,7 +31,7 @@
     height: 30px;
 }
 #welcome{
-    background: #bbbfc2;
+    background: rgb(199, 228, 192);
     padding: 1px;
     vertical-align: middle;
     border: dotted 2px rgb(0, 0, 0);
