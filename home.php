@@ -22,9 +22,6 @@ include_once("connection.php");
               <video width="1200px" height="300px" controls><source src="images/video.mp4" type="video/mp4"></video>
           </div>
       </div>
-<br>
-
-
 <div class="product" id="product01">
     <img src="images/ban_ghe.jpg"/>
       <div><span>Tables and Chairs in the yard</span></div>
